@@ -1,3 +1,5 @@
+/* Style CSS header */
+
 .clubheader {
     display: flex;
     justify-content:center;
@@ -9,8 +11,11 @@
 
 .clubheader p,h1,ul {
     margin-right: 10px;
-    margin-left: 5px;
   }
+
+.clubheader ul {
+    padding: 20px;
+}
 
 
 .clubheader i {
@@ -19,6 +24,7 @@
 
 .clubheader img {
     width: 3%;
+   
 }
 
 .clubheader span{
@@ -27,4 +33,16 @@
 
 .clubheader ul {
     list-style-type: none;
+}
+
+
+/* Style CSS footer */
+
+.clubfooter{
+    background-color: #232628;
+
+}
+
+.clubfooter span {
+    color: #6C98E1;
 }
