@@ -1,0 +1,30 @@
+.clubheader {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #232628;
+ 
+}
+
+.clubheader p,h1,ul {
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+
+
+.clubheader i {
+    margin-right: 20px;
+}
+
+.clubheader img {
+    width: 3%;
+}
+
+.clubheader span{
+    color: #FAB637
+}
+
+.clubheader ul {
+    list-style-type: none;
+}
