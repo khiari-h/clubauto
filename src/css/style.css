@@ -57,6 +57,27 @@
     margin-right: 80px;
 }
 
+/* Style CSS photo en dessous de la navbar */
+
+.texte{
+    background-color: #232628; 
+    color: white;
+    text-align: center;
+    
+}
+
+.texte span{
+    color: #FAB637;
+}
+
+
+
+/* Style CSS pour les 2 photos avec le float */
+
+.clubauto {
+    color:#FAB637 ;
+}
+
 /* Style CSS footer */
 
 .clubfooter{
