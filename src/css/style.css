@@ -138,3 +138,32 @@
   .top-right-overlay-wrapper {
     right: 10px; /* Ajuster la position horizontale */
   }
+
+  .image-container {
+    position: relative;
+}
+
+.contact-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    width: 100%; /* Le formulaire prendra toute la largeur de la rangée */
+    max-width: 800px; /* Limiter la largeur maximale du formulaire */
+}
+
+.contact-form .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
