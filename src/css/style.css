@@ -96,3 +96,45 @@
 .horaires {
     margin:0;
 }
+
+/* Style CSS image vente location */
+.achatloc {
+    position: relative;
+  }
+
+  .text-overlay {
+    position: absolute;
+    color: white;
+    padding: 10px;
+  }
+
+  .text-overlay h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .text-overlay p {
+    font-size: 14px;
+  }
+
+  .top-overlay,
+  .top-right-overlay {
+    background-color: rgba(255, 165, 0, 0.8); /* Orange */
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  .top-right-overlay {
+    background-color: rgba(255, 107, 107, 0.8); /* Rouge clair ou grenadine */
+  }
+
+  .top-overlay-wrapper,
+  .top-right-overlay-wrapper {
+    position: absolute;
+    top: 10px; /* Ajuster la position verticale */
+    padding: 5px;
+  }
+
+  .top-right-overlay-wrapper {
+    right: 10px; /* Ajuster la position horizontale */
+  }
