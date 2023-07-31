@@ -98,47 +98,60 @@
 }
 
 /* Style CSS image vente location */
+
+/* Style CSS image vente location */
 .achatloc {
     position: relative;
   }
-
+  
   .text-overlay {
     position: absolute;
     color: white;
     padding: 10px;
   }
 
+  .text-overlay span {
+    color: #232628;
+  }
+  
   .text-overlay h4 {
     font-size: 18px;
     margin-bottom: 10px;
   }
-
+  
   .text-overlay p {
     font-size: 14px;
   }
-
+  
   .top-overlay,
   .top-right-overlay {
     background-color: rgba(255, 165, 0, 0.8); /* Orange */
-    display: inline-block;
     border-radius: 5px;
+    width: 300px; /* Ajuster la largeur du fond orange pour éviter qu'il ne dépasse trop */
+   
   }
-
+  
   .top-right-overlay {
     background-color: rgba(255, 107, 107, 0.8); /* Rouge clair ou grenadine */
   }
-
-  .top-overlay-wrapper,
+  
+  .top-overlay-wrapper {
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    padding: 15px;
+  }
+  
   .top-right-overlay-wrapper {
     position: absolute;
-    top: 10px; /* Ajuster la position verticale */
-    padding: 5px;
+    top: 0%;
+    left: 50%;
+    padding: 15px;
   }
+  
 
-  .top-right-overlay-wrapper {
-    right: 10px; /* Ajuster la position horizontale */
-  }
 
+/* Style CSS formulaire */
   .image-container {
     position: relative;
 }
@@ -167,3 +180,32 @@
     height: auto;
     display: block;
 }
+
+.container {
+    margin-top: 0; /* Supprime la marge supérieure du bloc */
+  }
+  
+  .image-containerv3 {
+    position: relative;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 10%; /* Ajustez cette valeur pour faire descendre le texte overlay */
+    left: 30%; /* Ajustez cette valeur pour décaler le texte overlay vers la gauche */
+    color: white;
+    background-color: rgba(255, 165, 0, 0.7);
+    padding: 20px;
+    width: 130%; /* Pour que le texte overlay occupe 90% de la largeur de l'image */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 30%; 
+  }
+  
+  .hfour {
+    color: #232628;
+  }
+  
+ 
