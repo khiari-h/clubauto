@@ -208,36 +208,10 @@
     color: #232628;
   }
 
-  .cropped-image {
-    width: auto;
-    clip-path: polygon(0 0, 100% 0, 100% 100px, 0 100px);
+  #navproduit a {
+    color: #ECEFF3;
   }
 
-  .custom-form-container {
-    position: relative;
-    width: 250px; /* Ajustez la largeur du formulaire */
-  height: 400px; 
-  }
-  
-  .image-container {
-    position: relative;
-  }
-  
-  #formulaire {
-    position: absolute;
-    top: 95%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
- 
-   
-  }
-  
- 
-  
   
   
   

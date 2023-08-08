@@ -51,6 +51,169 @@
      </div>
  </nav>
 
+ <div class="container mt-4">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="image-container">
+        <img src="src/images/vlc.jpg" alt="Image de voiture" class="img-fluid">
+      </div>
+    </div>
+  </div>
+ 
+
+  <div class="container mt-4">
+    <div class="row mb-4">
+      <div class="col-md-2 d-flex flex-row">
+        <span class="align-middle me-2">ORDRE:</span>
+        <select class="form-select col-md-6">
+          <option value="prix-croissant">Prix croissant</option>
+          <option value="prix-decroissant">Prix décroissant</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-10">
+        <div class="row align-items-start flex-column">
+          <!-- Premier bloc de voiture -->
+          <div class="col-md-12 mb-2">
+            <div class="card d-flex flex-row">
+              <div class="col-3">
+                <img src="src/images/vehicule3.jpg" class="card-img-top img-fluid" alt="Voiture 1">
+              </div>
+              <div class="col-9">
+                <div class="card-body">
+                  <h5 class="card-title">BMW 535I, NAVI, LEATHER, ABS</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="price">
+                  <a href="produit.html">
+                    <button type="button" class="btn btn-primary text-white">
+                      5000 €
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Deuxième bloc de voiture -->
+          <div class="col-md-12 mb-2">
+            <div class="card d-flex flex-row">
+              <div class="col-3">
+                <img src="src/images/vehicule3.jpg" class="card-img-top img-fluid" alt="Voiture 1">
+              </div>
+              <div class="col-9">
+                <div class="card-body">
+                  <h5 class="card-title">BMW 535I, NAVI, LEATHER, ABS</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="price">
+                  <button type="button" class="btn btn-primary text-white">
+                    5000 €
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Troisième bloc de voiture -->
+          <div class="col-md-12 mb-2">
+            <div class="card d-flex flex-row">
+              <div class="col-3">
+                <img src="src/images/vehicule3.jpg" class="card-img-top img-fluid" alt="Voiture 1">
+              </div>
+              <div class="col-9">
+                <div class="card-body">
+                  <h5 class="card-title">BMW 535I, NAVI, LEATHER, ABS</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="price">
+                  <button type="button" class="btn btn-primary text-white">
+                    5000 €
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Quatrième bloc de voiture -->
+          <div class="col-md-12 mb-2">
+            <div class="card d-flex flex-row">
+              <div class="col-3">
+                <img src="src/images/vehicule3.jpg" class="card-img-top img-fluid" alt="Voiture 1">
+              </div>
+              <div class="col-9">
+                <div class="card-body">
+                  <h5 class="card-title">BMW 535I, NAVI, LEATHER, ABS</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+                <div class="price">
+                  <button type="button" class="btn btn-primary text-white">
+                    5000 €
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+  
+      <div class="col-md-2 bg-dark text-light p-4" id="formulaire">
+        <div class="d-flex align-items-center justify-content-center mb-3">
+          <img src="src/images/icone-voiture.png" alt="icone voiture" class="mr-2">
+          <h5>Recherche</h5>
+        </div>
+        
+              
+      <form>
+        <div class="form-group">
+          <label for="type">Type</label>
+          <select class="form-control" id="type">
+            <option value="">Tous</option>
+          </select>
+          <label for="type">Carburant</label>
+          <select class="form-control" id="type">
+            <option value="">Tous</option>
+          </select>
+          <label for="type">Marque</label>
+          <select class="form-control" id="type">
+            <option value="">Tous</option>
+          </select>
+          <label for="type">Modele</label>
+          <select class="form-control" id="type">
+            <option value="">Tous</option>
+          </select>
+          <label for="type">Kilometrage maximum</label>
+          <select class="form-control" id="type">
+            <option value="">Tous</option>
+          </select>
+          <label for="type">Anciennete</label>
+          <select class="form-control" id="type">
+            <option value="">Tous</option>
+          </select>
+          <label for="priceRange">Prix</label>
+          <input type="range" class="form-control-range" id="priceRange">
+          <div class="form-group">
+            <label for="priceRange">Plage de prix</label>
+            <div class="d-flex align-items-center">
+              <input type="number" class="form-control" id="minPrice" placeholder="2000" style="width: 40%;">
+              <span class="mx-2">à</span>
+              <input type="number" class="form-control" id="maxPrice" placeholder="8000" style="width: 40%;">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary mt-4 mx-auto d-block">Reinitialiser</button>
+        </div>
+      </form>
+    </div>
+  </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
     <footer class="clubfooter">
         <div class="container">
           <div class="row">
